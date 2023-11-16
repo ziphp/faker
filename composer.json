@@ -1,15 +1,12 @@
 {
-    "name": "yiisoft/yii2-faker",
+    "name": "ziphp/faker",
     "description": "Fixture generator. The Faker integration for the Yii framework.",
     "keywords": ["yii2", "faker", "fixture"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/yiisoft/yii2-faker/issues",
-        "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "http://www.yiiframework.com/wiki/",
-        "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/yii2-faker"
+        "issues": "https://github.com/ziphp/faker/issues",
+        "source": "https://github.com/ziphp/faker"
     },
     "authors": [
         {
@@ -18,7 +15,7 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0.0",
+        "ziphp/ziphp": ">=5.0.0",
         "fakerphp/faker": "~1.9|~1.10"
     },
     "require-dev": {
@@ -30,7 +27,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.0.x-dev"
+            "dev-main": "6.0.x-dev"
         },
         "composer-exit-on-patch-failure": true,
         "patches": {
