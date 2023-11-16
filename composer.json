@@ -25,6 +25,12 @@
     "autoload": {
         "psr-4": {"yii\\faker\\": "src"}
     },
+    "config": {
+        "allow-plugins": {
+            "cweagans/composer-patches": true,
+            "ziphp/zipper": true
+        }
+    },
     "extra": {
         "branch-alias": {
             "dev-main": "6.0.x-dev"
